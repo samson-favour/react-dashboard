@@ -8,6 +8,8 @@ import DashboardHomeTable from "../../components/DashboardHomeTable";
 import Doughnut from "../../components/DoughnutChart";
 import Doughnutdata from "../../components/Doughnutdata";
 import { BiDotsHorizontalRounded } from "react-icons/bi";
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+
 
 const Home = () => {
   return (
@@ -52,7 +54,14 @@ const Home = () => {
             <p className="text-[16px] pt-7 leading-[24px] text-[#000000] font-semibold">
               Activity
             </p>
-            <BiDotsHorizontalRounded size={24} color="#2772F0" />
+            <div className="flex mt-5 cursor-pointer  space-x-5 items-center w-[121px] h-[32px] rounded-[100px] border justify-center border-tabButton">
+              <h2 className="text-[12px] text-[#000000] leading-[20px] font-medium ">
+                This Year
+              </h2>
+              <div>
+                <MdOutlineKeyboardArrowDown />
+              </div>
+            </div>
           </div>
           <div className="flex pt-2">
             <Doughnutdata text="New Users" color="bg-analyticUser" />

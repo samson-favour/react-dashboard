@@ -32,6 +32,7 @@ const BarChart = () => {
         borderColor: "rgba(0, 42, 118, 0.1)",
         barThickness: 28,
         data: [4, 5, 9, 10, 14, 24.6, 22, 16, 8.8, 12, 5.5, 2],
+
         borderRadius: 20,
       },
     ],
@@ -50,7 +51,6 @@ const BarChart = () => {
 
     scales: {
       x: {
-      
         stacked: true,
         grid: {
           display: false,
