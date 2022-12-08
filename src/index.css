@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=PT+Sans&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.active {
+  background-color: #06C1FF;
+}
+
+.icon{
+  font-weight: 200;
+}
+
+.bg{
+  background-image: url('./assets//Sign\ In\ Cover\ 3.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+.bg::after {     /* use before property (pseudo-element)  */
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #002A76;
+    
+}
