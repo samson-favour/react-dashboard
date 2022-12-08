@@ -48,7 +48,7 @@ const Signup = () => {
         />
       </div>
       <div className="flex justify-center laptop:justify-start w-[100%] flex-1">
-        <div className="laptop:ml-48 ml-0 pt-52 w-[542px] px-4">
+        <div className="laptop:ml-48 ml-0 pt-28 md:pt-52 w-[542px] px-6">
           <div className="mb-14">
             <h1 className="text-[24px] leading-[38px] font-bold pb-4 ">
               Let’s Sign You In
